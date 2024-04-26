@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Questrial;
+    background-color: #d9d9d9;
+}
+
+#cabecalho {
+    list-style-type: none;
+    background-color: #021b30;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5px;
+    flex-direction: column;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: small;
+
+}
+
+#menu li {
+    display: inline;
+    margin-right: 500px;
+
+}
+
+
+
+.ajuda {
+    color: white;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: x-large;
+    white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+    margin-left: 445px;
+    margin-top: -10px;
+
+}
+
+
+
+.form-container {
+    background-color: #021b31;
+    padding: 40px;
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Lexend Exa', sans-serif;
+    height: 380px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.input-group input {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.button-group button {
+    background-color: #d9d9d9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-family: 'Lexend Exa', sans-serif;
+    margin-bottom: 10px;
+}
+
+.button-group button:hover {
+    background-color: #ecf0f1;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.button-group {
+    text-align: center;
+}
+
+
+.submit:hover{
+
+
+    transform: scale(1.1);
+    transition: 0.8s;
+
+
+}
+
+
+.button:hover{
+
+
+    transform: scale(1.1);
+    transition: 0.8s;
+
+
+}
+#msgerro {
+    color: #ec7171;
+
+}
+
+#Disciplina {
+
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+  }
+
+  #Curso{
+
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+  }
+ 
+  #Turno
+    {
+
+        border-radius: 15px;
+        width: 30%;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+
+      }
+
+      #Dia
+        {
+
+            border-radius: 15px;
+            width: 30%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+
+          }
+
+          #Professor{
+
+            border-radius: 15px;
+            width: 30%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+
+          }
+        
+.no-link-style {
+    text-decoration: none; /* Remove a sublinhado padrão */
+    color: inherit; /* Mantém a cor padrão do texto */
+    cursor: pointer; /* Adiciona o cursor de ponteiro para indicar interatividade */
+}
+
+/* Adicione estilos específicos para o botão "Voltar" se necessário */
+.no-link-style button {
+    /* Seus estilos específicos aqui */
+}

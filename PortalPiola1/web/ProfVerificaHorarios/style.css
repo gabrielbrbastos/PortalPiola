@@ -1,0 +1,140 @@
+#cabecalho {
+  list-style-type: none;
+  background-color: #021b30;
+ height: 143px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+margin-top: 5px;
+flex-direction: column;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: x-large;
+
+}
+
+#menu li {
+  display: inline;
+  margin-right: 500px;
+  
+}
+
+  
+.ajuda {
+    color: white;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: x-large;
+    white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+ 
+
+  #retornar:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+  }
+  .search-container {
+    width: 100%; /* Largura total */
+    text-align: center; /* Centralizar horizontalmente */
+  }
+  
+  .input {
+    width: 500px; /* Largura desejada */
+    background-color: #f5f5f523;
+    color: #000000;
+    padding: 0.5rem 1rem; /* Espaçamento interno ajustado */
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  
+  input:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  input:hover {
+    outline: 1px solid lightgrey;
+  }
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 8px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.excluir-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tabelap {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend Exa', sans-serif;
+    margin-top: 40px;
+}
+
+
+ 
+
+.ajuda2{
+  margin-top: 30px;
+  margin-left: 110px;
+  font-family: 'Lexend Exa', sans-serif;
+
+
+  margin-left: 40px;
+}
+
+.download button {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer; 
+    background: none; 
+    border: none; 
+    margin-left:605px;
+  }
+
+  .download button:hover {
+    text-decoration: underline;
+  }

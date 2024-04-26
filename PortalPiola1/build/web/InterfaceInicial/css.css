@@ -1,0 +1,103 @@
+.body{
+  align-items: center;
+}
+
+
+.header {
+  list-style-type: none;
+  background-color: #021b30;
+ height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+}
+
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: #D9D9D9;
+  font-family: "Questrial", sans-serif;
+  font-size: x-large;
+
+}
+
+#menu li {
+  display: inline;
+}
+
+.Loginp {
+  margin-right: 200px;
+  margin-left: 380px;
+}
+.Logo {
+  margin-left: 140px;
+  margin-right: 10px;
+  width: 70x;
+ height: 70px;
+}
+
+
+
+.Piola {
+  font-size: xx-large;
+  color: #021b30;
+  
+  background-color: #D9D9D9;
+  font-family: "Questrial", sans-serif;
+  margin-left: 0px;
+  margin-right: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; 
+  width: 50%;
+  border-radius: 15px;
+}
+
+.Piola p {
+ display: flex;
+ justify-content: center;
+}
+
+
+.imagem{
+  width: 100%;
+  height: 500px;
+}
+
+
+footer{
+  padding: 10px 4%;
+  box-shadow: 0 0 60px 10px gray ;
+  margin-top: 80px;
+
+}
+
+.line-footer{
+  display: flex;
+justify-content: space-between; 
+}
+
+
+.line-footer a{
+   text-decoration: none;
+   font-family: 'Questrial', sans-serif;
+   color: #021b30;
+   margin-left: 10px;
+}
+
+.logomarca{
+  width: 60px;
+  height: 60px;
+  
+}

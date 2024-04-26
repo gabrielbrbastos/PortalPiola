@@ -1,0 +1,11 @@
+{
+    "elements": {
+        "img": {},
+        "h2": {}
+    },
+    "attributes": {
+        "href": {
+            "context": "button"
+        }
+    }
+}
